@@ -5,28 +5,41 @@
             Jogos
         </title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </head>
     <body>
         <h1> Jogos do code.org </h1>
-        <div class="carousel-item foto"> 
-            <img src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" > 
-            <a href="https://studio.code.org/projects/applab/1iC9nqKUpWcnGxPnsdt-4H28LCulqd4_7AbFntmHvPg" target="_blank">
-              <img src="https://studio.code.org/v3/files/1iC9nqKUpWcnGxPnsdt-4H28LCulqd4_7AbFntmHvPg/.metadata/thumbnail.png" class="d-block w-100" alt="Jogo do Tank"> </a> 
-              <h2> Jogo do ponto cego </h2> 
+        <div class="container">
+        <div id="carrosel_jogos" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+              <div class="carousel-item active">  
+                <a href="https://studio.code.org/projects/applab/1iC9nqKUpWcnGxPnsdt-4H28LCulqd4_7AbFntmHvPg" target="_blank">
+                <img src="https://studio.code.org/v3/files/1iC9nqKUpWcnGxPnsdt-4H28LCulqd4_7AbFntmHvPg/.metadata/thumbnail.png" class="d-block w-100" alt="Jogo do ponto cego"> </a> 
+                 <h2> Jogo do ponto cego </h2> 
+              </div> 
+
+            <div class="carousel-item foto"> 
+                <a href="https://studio.code.org/projects/applab/WXtLTbO_l0TKTmCPkGgtaktON5sJQUWnAcThH38PpEg" target="_blank">
+                  <img src="https://studio.code.org/v3/files/WXtLTbO_l0TKTmCPkGgtaktON5sJQUWnAcThH38PpEg/.metadata/thumbnail.png" class="d-block w-100" alt="Estilizador de texto"> </a> 
+                  <h2> Estilizador de texto </h2>  
             </div> 
 
             <div class="carousel-item foto"> 
-                <img src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" > 
-                <a href="https://studio.code.org/projects/applab/WXtLTbO_l0TKTmCPkGgtaktON5sJQUWnAcThH38PpEg" target="_blank">
-                  <img src="https://studio.code.org/v3/files/WXtLTbO_l0TKTmCPkGgtaktON5sJQUWnAcThH38PpEg/.metadata/thumbnail.png" class="d-block w-100" alt="Jogo do Tank"> </a> 
-                  <h2> Estilizador de texto </h2>  
-                </div> 
-
-                <div class="carousel-item foto"> 
-                    <img src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" > 
                     <a href="https://studio.code.org/projects/applab/vFZ4UQokbl_BJDc14qX-cjvoc7X_BtyC0OcNuo5nlDU" target="_blank">
-                      <img src="https://studio.code.org/v3/files/vFZ4UQokbl_BJDc14qX-cjvoc7X_BtyC0OcNuo5nlDU/.metadata/thumbnail.png" class="d-block w-100" alt="Jogo do Tank"> </a> 
-                      <h2> Estilizador de texto </h2>  
-                    </div> 
+                      <img src="https://studio.code.org/v3/files/vFZ4UQokbl_BJDc14qX-cjvoc7X_BtyC0OcNuo5nlDU/.metadata/thumbnail.png" class="d-block w-100" alt="Maquina de sorvete"> </a> 
+                      <h2> Maquina de sorvete </h2>  
+                      <a class="carousel-control-prev" href="#carrosel_jogos" role="button" data-slide="prev"> 
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                        <span class="sr-only">Anterior</span> </a> 
+                        <a class="carousel-control-next" href="#carrosel_jogos" role="button" data-slide="next"> 
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                        <span class="sr-only">Próximo</span> </a> 
+            </div> 
+          </div>
+        </div>
+      </div>
     </body>
 </html>

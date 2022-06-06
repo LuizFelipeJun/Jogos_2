@@ -3,11 +3,16 @@
     text-shadow: 1px;
 }
 
-html {
-    text-align: center;
-    background-color:lightcyan ;
+body {
+    text-align: center !important;
+    background-color: red !important;
 }
 
 h2 {
     text-decoration: aqua;
+}
+
+img {
+    width: 200px;
+    height: 600px;
 }
